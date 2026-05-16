@@ -6,15 +6,15 @@
     </mj-preview>
 
     <!-- Breakpoint -->
-    <mj-breakpoint width="480px" />
+    <mj-breakpoint width="320px" />
 
     <!-- Email Title -->
     <mj-title>Obsidian Ceramic Mug – Special Offer</mj-title>
 
     <!-- Google Font -->
     <mj-font
-      name="Lora"
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      name="Montserrat"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     />
 
     <!--
@@ -61,13 +61,13 @@
     <mj-attributes>
       <!-- Entire Email -->
       <mj-all
-        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        font-family="'Montserrat', Georgia, 'Times New Roman', Arial, serif"
         color="#444444"
         line-height="1.5"
       />
 
       <!-- Body -->
-      <mj-body background-color="#f4f4f4" />
+      <mj-body background-color="#000000" />
 
       <!-- Sections -->
       <mj-section padding="0" background-color="#ffffff" />
@@ -138,5 +138,202 @@
     </mj-raw>
   </mj-head>
 
-  <mj-body width="600px" background-color="#f4f4f4"> </mj-body>
+  <mj-body width="600px" background-color="#000000">
+    <!-- ============================================================ -->
+    <!-- LOGO                                                          -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#000000">
+      <mj-column vertical-align="top">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778935767/email-portfolio/product-launch-email/images/nextgen-logo_e1t1jo.png"
+          alt="Ultimate Technology Limited"
+          href="https://mjml.io/product?utm_source=email&utm_medium=newsletter&utm_campaign=summer_sale"
+          padding="16px 0"
+          width="140px"
+        />
+        <mj-text align="center" color="#cccccc" font-weight="300">
+          Introducing
+        </mj-text>
+        <mj-text
+          align="center"
+          color="#f5f5f5"
+          font-size="24px"
+          font-weight="bold"
+          padding="6px 0px 0px"
+        >
+          NextGen Watch X
+        </mj-text>
+        <mj-text
+          font-size="13px"
+          padding="10px 0px"
+          color="#f5f5f5"
+          line-height="1.4"
+          text-transform="capitalize"
+          align="center"
+        >
+          <span>Smarter, faster, stronger</span><br />
+          <span>built for the future</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778935770/email-portfolio/product-launch-email/images/wrist-watch_oqpngy.png"
+          alt=""
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- 3 COLUMN ICONS SECTION -->
+    <mj-section
+      padding="30px 0px 0px"
+      background-color="#000"
+      css-class="dm-bg-section-soft"
+    >
+      <mj-column padding="0 10px 20px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778947409/email-portfolio/product-launch-email/icons/tracking.png"
+          alt="Shopping for women"
+          width="30px"
+          padding="0px"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#f4f4f4"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+        >
+          24/7
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="
+              color: #888888;
+              text-decoration: none;
+              text-transform: capitalize;
+              font-weight: 500;
+            "
+            >health tracking
+          </span>
+        </mj-text>
+      </mj-column>
+
+      <mj-column padding="0px 10px 20px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778947409/email-portfolio/product-launch-email/icons/battery-life.png"
+          alt="Shopping for men"
+          width="30px"
+          padding="0"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#f4f4f4"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="capitalize"
+        >
+          7 days
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="
+              color: #888888;
+              text-decoration: none;
+              font-weight: 500;
+              text-transform: capitalize;
+            "
+            >battery life</span
+          >
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0 10px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1778947409/email-portfolio/product-launch-email/icons/droplet.png"
+          alt="Shopping for men"
+          width="30px"
+          padding="0"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#f4f4f4"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="capitalize"
+          line-height="1.4"
+        >
+          water
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #888888; text-decoration: none; font-weight: 500"
+            >Resistant</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Pre-order Large Button -->
+    <mj-section padding="5px 0px 0px" background-color="#000000">
+      <mj-column>
+        <mj-button
+          width="220px"
+          line-height="1.1"
+          font-size="13px"
+          background-color="#0654b8"
+          text-transform="uppercase"
+          href="https://taqwaitagency.com"
+          inner-padding="15px 0"
+        >
+          pre-order now
+        </mj-button>
+        <mj-text
+          font-size="13px"
+          align="center"
+          line-height="1.4"
+          padding="15px 0px"
+          color="#888888"
+        >
+          <span>Be the first to experience </span><br />
+          <span>the real product</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
 </mjml>
